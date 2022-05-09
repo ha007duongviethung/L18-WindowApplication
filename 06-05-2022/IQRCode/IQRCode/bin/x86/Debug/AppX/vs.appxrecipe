@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Github\L18-WindowApplication\06-05-2022\IQRCode\IQRCode\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-05-06T11:41:40.080</Modified>
+      <Modified>2022-05-08T07:34:24.756</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Github\L18-WindowApplication\06-05-2022\IQRCode\IQRCode\bin\x86\Debug\IQRCode.exe">
       <PackagePath>entrypoint\IQRCode.exe</PackagePath>
-      <Modified>2022-05-06T11:41:39.121</Modified>
+      <Modified>2022-05-08T07:34:23.410</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\litedb\5.0.11\lib\netstandard2.0\LiteDB.dll">
       <PackagePath>LiteDB.dll</PackagePath>
@@ -74,13 +74,41 @@
       <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
       <Modified>2021-10-22T23:40:46.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\zxing.net.mobile\2.4.1\lib\UAP10\ZXing.Net.Mobile.Core.dll">
+      <PackagePath>ZXing.Net.Mobile.Core.dll</PackagePath>
+      <Modified>2018-04-04T07:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\zxing.net.mobile\2.4.1\lib\UAP10\ZXingNetMobile.dll">
+      <PackagePath>ZXingNetMobile.dll</PackagePath>
+      <Modified>2018-04-04T07:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\zxing.net.mobile\2.4.1\lib\UAP10\zxing.portable.dll">
+      <PackagePath>zxing.portable.dll</PackagePath>
+      <Modified>2018-04-04T07:26:38.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.20348.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2021-05-07T10:43:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Github\L18-WindowApplication\06-05-2022\IQRCode\IQRCode\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2022-05-06T11:26:22.217</Modified>
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\zxing.net.mobile\2.4.1\lib\UAP10\ZXingNetMobile\ZXingNetMobile.xr.xml">
+      <PackagePath>ZXingNetMobile\ZXingNetMobile.xr.xml</PackagePath>
+      <Modified>2018-04-04T07:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Github\L18-WindowApplication\06-05-2022\IQRCode\IQRCode\Assets\Image\baggage.png">
+      <PackagePath>Assets\Image\baggage.png</PackagePath>
+      <Modified>2022-05-06T18:26:23.292</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Github\L18-WindowApplication\06-05-2022\IQRCode\IQRCode\Assets\Image\facebook.png">
+      <PackagePath>Assets\Image\facebook.png</PackagePath>
+      <Modified>2022-05-06T18:26:23.299</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Github\L18-WindowApplication\06-05-2022\IQRCode\IQRCode\Assets\Image\pin.png">
+      <PackagePath>Assets\Image\pin.png</PackagePath>
+      <Modified>2022-05-06T18:26:23.300</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Github\L18-WindowApplication\06-05-2022\IQRCode\IQRCode\Assets\Image\QRCode.png">
+      <PackagePath>Assets\Image\QRCode.png</PackagePath>
+      <Modified>2022-05-06T18:26:23.301</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Github\L18-WindowApplication\06-05-2022\IQRCode\IQRCode\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -116,25 +144,73 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-04-12T14:53:10.904</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Github\L18-WindowApplication\06-05-2022\IQRCode\IQRCode\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2022-05-06T11:26:22.217</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Github\L18-WindowApplication\06-05-2022\IQRCode\IQRCode\bin\x86\Debug\IQRCode.xr.xml">
       <PackagePath>IQRCode.xr.xml</PackagePath>
-      <Modified>2022-05-06T11:40:21.671</Modified>
+      <Modified>2022-05-07T09:52:47.438</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Github\L18-WindowApplication\06-05-2022\IQRCode\IQRCode\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-05-06T11:41:38.999</Modified>
+      <Modified>2022-05-08T07:34:23.292</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Github\L18-WindowApplication\06-05-2022\IQRCode\IQRCode\bin\x86\Debug\Styles\Color.xbf">
       <PackagePath>Styles\Color.xbf</PackagePath>
-      <Modified>2022-05-06T11:41:38.999</Modified>
+      <Modified>2022-05-08T07:34:23.292</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Github\L18-WindowApplication\06-05-2022\IQRCode\IQRCode\bin\x86\Debug\Styles\String.xbf">
       <PackagePath>Styles\String.xbf</PackagePath>
-      <Modified>2022-05-06T11:41:38.999</Modified>
+      <Modified>2022-05-08T07:34:23.292</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Github\L18-WindowApplication\06-05-2022\IQRCode\IQRCode\bin\x86\Debug\Views\CardPage.xbf">
+      <PackagePath>Views\CardPage.xbf</PackagePath>
+      <Modified>2022-05-08T07:34:23.292</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Github\L18-WindowApplication\06-05-2022\IQRCode\IQRCode\bin\x86\Debug\Views\Dialogs\ErrorDialog.xbf">
+      <PackagePath>Views\Dialogs\ErrorDialog.xbf</PackagePath>
+      <Modified>2022-05-08T07:34:23.292</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Github\L18-WindowApplication\06-05-2022\IQRCode\IQRCode\bin\x86\Debug\Views\Dialogs\ShowQRCodeDialog.xbf">
+      <PackagePath>Views\Dialogs\ShowQRCodeDialog.xbf</PackagePath>
+      <Modified>2022-05-08T07:34:23.292</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Github\L18-WindowApplication\06-05-2022\IQRCode\IQRCode\bin\x86\Debug\Views\DocumentPage.xbf">
+      <PackagePath>Views\DocumentPage.xbf</PackagePath>
+      <Modified>2022-05-08T07:34:23.292</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Github\L18-WindowApplication\06-05-2022\IQRCode\IQRCode\bin\x86\Debug\Views\EmailPage.xbf">
+      <PackagePath>Views\EmailPage.xbf</PackagePath>
+      <Modified>2022-05-08T07:34:23.292</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Github\L18-WindowApplication\06-05-2022\IQRCode\IQRCode\bin\x86\Debug\Views\EmptyPage.xbf">
+      <PackagePath>Views\EmptyPage.xbf</PackagePath>
+      <Modified>2022-05-08T07:34:23.292</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Github\L18-WindowApplication\06-05-2022\IQRCode\IQRCode\bin\x86\Debug\Views\FacebookPage.xbf">
+      <PackagePath>Views\FacebookPage.xbf</PackagePath>
+      <Modified>2022-05-08T07:34:23.292</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Github\L18-WindowApplication\06-05-2022\IQRCode\IQRCode\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2022-05-06T11:41:38.999</Modified>
+      <Modified>2022-05-08T07:34:23.292</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Github\L18-WindowApplication\06-05-2022\IQRCode\IQRCode\bin\x86\Debug\Views\PhonePage.xbf">
+      <PackagePath>Views\PhonePage.xbf</PackagePath>
+      <Modified>2022-05-08T07:34:23.292</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Github\L18-WindowApplication\06-05-2022\IQRCode\IQRCode\bin\x86\Debug\Views\SMSPage.xbf">
+      <PackagePath>Views\SMSPage.xbf</PackagePath>
+      <Modified>2022-05-08T07:34:23.292</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Github\L18-WindowApplication\06-05-2022\IQRCode\IQRCode\bin\x86\Debug\Views\WebsitePage.xbf">
+      <PackagePath>Views\WebsitePage.xbf</PackagePath>
+      <Modified>2022-05-08T07:34:23.292</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Github\L18-WindowApplication\06-05-2022\IQRCode\IQRCode\bin\x86\Debug\Views\WifiPage.xbf">
+      <PackagePath>Views\WifiPage.xbf</PackagePath>
+      <Modified>2022-05-08T07:34:23.292</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.20348.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -150,11 +226,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Github\L18-WindowApplication\06-05-2022\IQRCode\IQRCode\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-05-06T11:41:39.378</Modified>
+      <Modified>2022-05-07T08:40:50.742</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Github\L18-WindowApplication\06-05-2022\IQRCode\IQRCode\bin\x86\Debug\Core\IQRCode.exe">
       <PackagePath>IQRCode.exe</PackagePath>
-      <Modified>2022-05-06T11:41:40.078</Modified>
+      <Modified>2022-05-08T07:34:24.750</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

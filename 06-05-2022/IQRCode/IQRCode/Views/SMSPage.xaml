@@ -1,0 +1,44 @@
+﻿<Page
+    x:Class="IQRCode.Views.SMSPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:IQRCode.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Background="{StaticResource light_blue}"
+    mc:Ignorable="d">
+    <Page.Resources>
+        <ResourceDictionary>
+            <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="{StaticResource white_Color}" />
+            <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="{StaticResource dark}" />
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <Grid Padding="20" RowSpacing="12">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+            <RowDefinition Height="Auto" />
+
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" Spacing="8">
+            <FontIcon Glyph="&#xe8bd;" />
+            <TextBlock FontSize="14" Text="SMS" />
+        </StackPanel>
+        <TextBox
+            Grid.Row="1"
+            Height="30"
+            x:Name="tb_phone"
+            PlaceholderText="Phone numble" />
+        <RichEditBox x:Name="reb_sms" Grid.Row="2" PlaceholderText="Enter SMS" />
+        <Button
+            Grid.Row="3"
+            Background="{StaticResource dark}"
+            Content="Get QR-Code"
+            Click="GenerateQRCode"
+            FontSize="14"
+            FontWeight="SemiBold"
+            Foreground="{StaticResource white_Color}" />
+    </Grid>
+</Page>

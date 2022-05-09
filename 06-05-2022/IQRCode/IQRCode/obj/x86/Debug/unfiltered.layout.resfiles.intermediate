@@ -1,4 +1,8 @@
 WinMetadata\Windows.winmd
+Assets\Image\baggage.png
+Assets\Image\facebook.png
+Assets\Image\pin.png
+Assets\Image\QRCode.png
 Assets\LockScreenLogo.scale-200.png
 Assets\SplashScreen.scale-200.png
 Assets\Square150x150Logo.scale-200.png
@@ -10,5 +14,16 @@ App.xbf
 IQRCode.xr.xml
 Styles\Color.xbf
 Styles\String.xbf
+Views\CardPage.xbf
+Views\Dialogs\ErrorDialog.xbf
+Views\Dialogs\ShowQRCodeDialog.xbf
+Views\DocumentPage.xbf
+Views\EmailPage.xbf
+Views\EmptyPage.xbf
+Views\FacebookPage.xbf
 Views\MainPage.xbf
+Views\PhonePage.xbf
+Views\SMSPage.xbf
+Views\WebsitePage.xbf
+Views\WifiPage.xbf
 Properties\Default.rd.xml

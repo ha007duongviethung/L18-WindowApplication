@@ -1,0 +1,189 @@
+﻿<Page
+    x:Class="IQRCode.Views.CardPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:IQRCode.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Background="{StaticResource light_blue}"
+    mc:Ignorable="d">
+    <Page.Resources>
+        <ResourceDictionary>
+            <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="{StaticResource white_Color}" />
+            <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="{StaticResource dark}" />
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <Grid Padding="20" RowSpacing="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid RowSpacing="12">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <StackPanel Orientation="Horizontal" Spacing="8">
+                <FontIcon Glyph="&#xE77B;" />
+                <TextBlock
+                    VerticalAlignment="Center"
+                    FontSize="14"
+                    Text="General information" />
+            </StackPanel>
+            <Grid Grid.Row="1" ColumnSpacing="24">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <TextBox
+                    x:Name="tb_name"
+                    Height="30"
+                    PlaceholderText="Name" />
+                <TextBox
+                    x:Name="tb_subname"
+                    Grid.Column="1"
+                    Height="30"
+                    PlaceholderText="Submame" />
+            </Grid>
+            <Grid Grid.Row="2" ColumnSpacing="24">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <TextBox
+                    x:Name="tb_phone"
+                    Height="30"
+                    PlaceholderText="Phone" />
+                <TextBox
+                    x:Name="tb_email"
+                    Grid.Column="1"
+                    Height="30"
+                    PlaceholderText="Email" />
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="1" RowSpacing="12">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <StackPanel Orientation="Horizontal" Spacing="8">
+                <Image Width="20" Source="/Assets/Image/baggage.png" />
+                <TextBlock
+                    VerticalAlignment="Center"
+                    FontSize="14"
+                    Text="Company" />
+            </StackPanel>
+            <Grid Grid.Row="1" ColumnSpacing="24">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <TextBox
+                    x:Name="tb_company"
+                    Height="30"
+                    PlaceholderText="Name company" />
+                <TextBox
+                    x:Name="tb_positioncompany"
+                    Grid.Column="1"
+                    Height="30"
+                    PlaceholderText="Position" />
+            </Grid>
+            <Grid Grid.Row="2" ColumnSpacing="24">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <TextBox
+                    x:Name="tb_phonecompany1"
+                    Height="30"
+                    PlaceholderText="Phone company" />
+                <TextBox
+                    x:Name="tb_phonecompany2"
+                    Grid.Column="1"
+                    Height="30"
+                    PlaceholderText="Phone company" />
+            </Grid>
+            <Grid Grid.Row="3" ColumnSpacing="24">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <TextBox
+                    x:Name="tb_emailcompany"
+                    Height="30"
+                    PlaceholderText="Email company" />
+                <TextBox
+                    x:Name="tb_websitecompany"
+                    Grid.Column="1"
+                    Height="30"
+                    PlaceholderText="Website company" />
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="2" RowSpacing="12">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <StackPanel Orientation="Horizontal" Spacing="8">
+                <Image Width="20" Source="/Assets/Image/pin.png" />
+                <TextBlock
+                    VerticalAlignment="Center"
+                    FontSize="14"
+                    Text="Company address" />
+            </StackPanel>
+            <Grid Grid.Row="1" ColumnSpacing="24">
+                <TextBox
+                    x:Name="tb_street"
+                    Height="30"
+                    PlaceholderText="Street names" />
+            </Grid>
+            <Grid Grid.Row="2" ColumnSpacing="24">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <TextBox
+                    x:Name="tb_district"
+                    Height="30"
+                    PlaceholderText="District" />
+                <TextBox
+                    x:Name="tb_province"
+                    Grid.Column="1"
+                    Height="30"
+                    PlaceholderText="Province/City" />
+            </Grid>
+            <Grid Grid.Row="3" ColumnSpacing="24">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <TextBox
+                    x:Name="tb_nation"
+                    Height="30"
+                    PlaceholderText="Nation" />
+                <TextBox
+                    x:Name="tb_zipcode"
+                    Grid.Column="1"
+                    Height="30"
+                    PlaceholderText="ZipCode" />
+            </Grid>
+        </Grid>
+        <Button
+            Grid.Row="3"
+            VerticalAlignment="Bottom"
+            Background="{StaticResource dark}"
+            Click="QRCode"
+            Content="Get QR-Code"
+            FontSize="14"
+            FontWeight="SemiBold"
+            Foreground="{StaticResource white_Color}" />
+    </Grid>
+</Page>

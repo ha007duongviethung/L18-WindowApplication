@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "UUjqJR1nZu6UIyErjeRFq24WXLiCokHHXaBtZGsL83ea6uHGSEEPbP/8FQPqRjfUVMG2dOkx8IG+90T1BfxDbA==",
+  "dgSpecHash": "XHcYbkmItc4nP9oGpwWOd49nbMPWNUShF7yWadHgND/AgPsI5ty5qhLh86AehRoeeyp8r+3oo2XlZsMVcz2H1A==",
   "success": true,
   "projectFilePath": "D:\\Github\\L18-WindowApplication\\06-05-2022\\IQRCode\\IQRCode\\IQRCode.csproj",
   "expectedPackageFiles": [
@@ -37,7 +37,8 @@
     "C:\\Users\\Admin\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    "C:\\Users\\Admin\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\zxing.net.mobile\\2.4.1\\zxing.net.mobile.2.4.1.nupkg.sha512"
   ],
   "logs": []
 }

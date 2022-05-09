@@ -1,0 +1,29 @@
+﻿<ContentDialog
+    x:Class="ManageProduct.Views.Dialogs.DeleteAllDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:ManageProduct.Views.Dialogs"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    x:Name="DeleteProductDialog"
+    Title="Delete All Product"
+    CornerRadius="4"
+    DataContext="{Binding Source={StaticResource VML}, Path=DeleteAllDialog}"
+    PrimaryButtonCommand="{Binding DeleteAllCommand}"
+    PrimaryButtonText="Delete"
+    SecondaryButtonText="Cancel"
+    mc:Ignorable="d">
+    <ContentDialog.Resources>
+        <ResourceDictionary>
+            <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="{StaticResource light_green}" />
+            <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="{StaticResource white_Color}" />
+        </ResourceDictionary>
+    </ContentDialog.Resources>
+
+    <Grid>
+        <TextBlock
+            Width="272"
+            Text="Are you sure you want to delete all these products? This action cannot be undone."
+            TextWrapping="Wrap" />
+    </Grid>
+</ContentDialog>

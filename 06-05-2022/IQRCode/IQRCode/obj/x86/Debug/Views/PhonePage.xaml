@@ -1,0 +1,41 @@
+﻿<Page
+    x:Class="IQRCode.Views.PhonePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:IQRCode.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Background="{StaticResource light_blue}"
+    mc:Ignorable="d">
+    <Page.Resources>
+        <ResourceDictionary>
+            <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="{StaticResource white_Color}" />
+            <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="{StaticResource dark}" />
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <Grid Padding="20" RowSpacing="12">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" Spacing="8">
+            <FontIcon Glyph="&#xE717;" />
+            <TextBlock FontSize="14" Text="Enter phone" />
+        </StackPanel>
+        <TextBox x:ConnectionId='2'
+            x:Name="tb_phone"
+            Grid.Row="1"
+            PlaceholderText="Phone numble" />
+        <Button x:ConnectionId='3'
+            Grid.Row="2"
+            Background="{StaticResource dark}"
+                                  
+            Content="Get QR-Code"
+            FontSize="14"
+            FontWeight="SemiBold"
+            Foreground="{StaticResource white_Color}" />
+    </Grid>
+</Page>
+

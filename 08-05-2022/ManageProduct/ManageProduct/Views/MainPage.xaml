@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="ManageProduct.Views.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:ManageProduct.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <NavigationView
+        x:Name="NavigationViewManage"
+        Background="{StaticResource blue}"
+        IsBackButtonVisible="Collapsed"
+        IsSettingsVisible="False"
+        Loaded="NavigationView_Loaded"
+        PaneDisplayMode="Left"
+        SelectedItem="SamplePage1">
+        <NavigationView.MenuItems>
+            <NavigationViewItem Tag="SamplePage1">
+                <StackPanel Orientation="Horizontal" Spacing="12">
+                    <Image Width="20" Source="/Assets/Images/Manage.png" />
+                    <TextBlock
+                        FontSize="14"
+                        FontWeight="SemiBold"
+                        Text="Mannage Product " />
+                </StackPanel>
+            </NavigationViewItem>
+        </NavigationView.MenuItems>
+        <Frame
+            x:Name="MyFrame"
+            Background="{StaticResource light_blue}"
+            CornerRadius="8 0 0 0" />
+    </NavigationView>
+
+</Page>

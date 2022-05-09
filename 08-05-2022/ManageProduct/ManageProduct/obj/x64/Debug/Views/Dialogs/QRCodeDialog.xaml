@@ -1,0 +1,27 @@
+﻿<ContentDialog x:ConnectionId='1'
+    x:Class="ManageProduct.Views.Dialogs.QRCodeDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:ManageProduct.Views.Dialogs"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    x:Name="DialogQRCode"
+    Title="QRCode"
+    CornerRadius="4"
+    DataContext="{Binding Source={StaticResource VML}, Path=QRCodeDialog}"
+    PrimaryButtonText="Cancel"
+    mc:Ignorable="d">
+
+    <Grid>
+        <Image x:ConnectionId='2'
+            x:Name="QRCode"
+            Width="300"
+            Source="{Binding writeableBitmap}" />
+        <TextBlock x:ConnectionId='3'
+            x:Name="error"
+            Foreground="#FE1A1A"
+            Text="Error"
+            Visibility="Collapsed" />
+    </Grid>
+</ContentDialog>
+
