@@ -1,0 +1,17 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Color x:Key="navbar_color">#2F6B99</Color>
+    <Color x:Key="table_color">#346083</Color>
+    <Color x:Key="white_color">#FFFFFF</Color>
+    <Color x:Key="black_color">#111111</Color>
+    <SolidColorBrush x:Key="btn_new">#16D29A</SolidColorBrush>
+    <SolidColorBrush x:Key="btn_approved">#6130B1</SolidColorBrush>
+    <SolidColorBrush x:Key="btn_reported">#FBA94A</SolidColorBrush>
+    <SolidColorBrush x:Key="btn_sent">#FF6B00</SolidColorBrush>
+    <SolidColorBrush x:Key="btn_received">#0078D7</SolidColorBrush>
+    <SolidColorBrush x:Key="btn_done">#05941B</SolidColorBrush>
+    <SolidColorBrush x:Key="btn_cancel">#000000</SolidColorBrush>
+    <SolidColorBrush x:Key="btn_error">#D21616</SolidColorBrush>
+
+</ResourceDictionary>
+

@@ -1,0 +1,106 @@
+﻿<ContentDialog
+    x:Class="MinhTamShop.Views.Dialogs.AddDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="using:Microsoft.UI.Xaml.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:MinhTamShop.Views.Dialogs"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Add Order"
+    CornerRadius="8"
+    DataContext="{Binding Source={StaticResource VML}, Path=AddDialog}"
+    PrimaryButtonCommand="{Binding AddCommand}"
+    PrimaryButtonText="Add"
+    SecondaryButtonText="Cancel"
+    mc:Ignorable="d">
+
+    <Grid Width="480" RowSpacing="12">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <StackPanel Spacing="4">
+            <TextBlock FontSize="14" Text="Product Pictures: " />
+            <Button
+                Height="42"
+                Padding="8,0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Center"
+                HorizontalContentAlignment="Stretch">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Foreground="#666666" Text="Image" />
+                    <FontIcon
+                        Grid.Column="1"
+                        HorizontalAlignment="Right"
+                        Glyph="&#xEE71;" />
+                </Grid>
+            </Button>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Spacing="4">
+            <TextBlock Text="Name Product: " />
+            <TextBox PlaceholderText="Name Product..." Text="{Binding Name, Mode=TwoWay}" />
+        </StackPanel>
+        <StackPanel Grid.Row="2" Spacing="4">
+            <TextBlock Text="Id Order: " />
+            <TextBox PlaceholderText="Id Order..." Text="{Binding IdOrder, Mode=TwoWay}" />
+        </StackPanel>
+        <Grid Grid.Row="3" ColumnSpacing="12">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <StackPanel Spacing="4">
+                <TextBlock Text="Amount: " />
+                <controls:NumberBox
+                    Minimum="1"
+                    PlaceholderText="Amount..."
+                    Text="{Binding Amount, Mode=TwoWay}"
+                    Value="1" />
+            </StackPanel>
+            <StackPanel Grid.Column="1" Spacing="4">
+                <TextBlock Text="Total: " />
+                <controls:NumberBox
+                    Minimum="0"
+                    PlaceholderText="Total..."
+                    Text="{Binding Total, Mode=TwoWay}"
+                    Value="0" />
+            </StackPanel>
+        </Grid>
+        <StackPanel Grid.Row="4" Spacing="4">
+            <TextBlock Text="Customer Address: " />
+            <TextBox
+                Height="80"
+                PlaceholderText="Customer Address..."
+                Text="{Binding Address, Mode=TwoWay}"
+                TextWrapping="Wrap" />
+        </StackPanel>
+        <StackPanel Grid.Row="5" Spacing="4">
+            <TextBlock Text="Phone Number: " />
+            <TextBox PlaceholderText="Phone Number..." Text="{Binding Phone, Mode=TwoWay}" />
+        </StackPanel>
+        <StackPanel Grid.Row="6" Spacing="4">
+            <TextBlock Text="Order Status: " />
+            <ComboBox
+                Width="480"
+                ItemsSource="{Binding ListStatus}" />
+        </StackPanel>
+        <StackPanel Grid.Row="7" Spacing="4">
+            <TextBlock Text="Note: " />
+            <TextBox
+                Height="80"
+                PlaceholderText="Note..."
+                Text="{Binding Note, Mode=TwoWay}"
+                TextWrapping="Wrap" />
+        </StackPanel>
+    </Grid>
+</ContentDialog>

@@ -1,0 +1,7 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <x:String x:Key="item_empty">Oh no! Your store has no orders yet.</x:String>
+    <x:String x:Key="delete_item">Are you sure you want to delete this oder? This action cannot be undone.</x:String>
+
+</ResourceDictionary>
+
